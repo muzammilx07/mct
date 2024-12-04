@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/tasks';
+const API_URL = "https://mct-fxcs.onrender.com/tasks";
 
 export const fetchTasks = async () => {
   try {
